@@ -92,6 +92,9 @@ function Layout() {
             <h3>{t('hero_title')}</h3>
             <p>{t('president')}</p>
             <p dangerouslySetInnerHTML={{ __html: t('contact_numbers') }}></p>
+            <p dir="ltr" style={{ margin: '0.5rem 0', fontSize: '1.1rem' }}>
+              <strong>Abdul Rauf (Director):</strong> <a href="tel:+923334469035" style={{ color: 'var(--secondary-light)', textDecoration: 'none' }}>+92 333 4469035</a>
+            </p>
             <p>{t('contact_desc')}</p>
             <div className="footer-links">
               {navLinks.map((link) => (

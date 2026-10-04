@@ -17,57 +17,7 @@ function IslamicPrograms() {
       </div>
 
       <div className="container section-padding pb-0" style={{ paddingBottom: '2rem' }}>
-        <motion.div 
-          initial={{ y: 20, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true }}
-          style={{
-            background: 'linear-gradient(135deg, #065F46 0%, #10B981 100%)',
-            borderRadius: '1.5rem',
-            padding: '3rem',
-            color: 'white',
-            boxShadow: '0 20px 25px -5px rgba(6, 95, 70, 0.2), 0 10px 10px -5px rgba(6, 95, 70, 0.1)',
-            position: 'relative',
-            overflow: 'hidden',
-            marginBottom: '4rem',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            textAlign: 'center'
-          }}
-        >
-          {/* Decorative glowing orbs */}
-          <div style={{ position: 'absolute', top: '-10%', left: '-5%', width: '150px', height: '150px', background: 'rgba(255,255,255,0.1)', borderRadius: '50%', filter: 'blur(40px)' }}></div>
-          <div style={{ position: 'absolute', bottom: '-10%', right: '-5%', width: '150px', height: '150px', background: 'rgba(217, 119, 6, 0.3)', borderRadius: '50%', filter: 'blur(40px)' }}></div>
-          
-          <h2 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem', position: 'relative', zIndex: 10 }}>
-            Important Announcement
-          </h2>
-          <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto 2rem', lineHeight: '1.8', opacity: 0.95, position: 'relative', zIndex: 10 }}>
-            By the grace of Almighty Allah (Insha'Allah), the <strong>Al Noor Foundation</strong> is honored to announce that in <strong>2027</strong>, we will be arranging the marriages of <strong>40 deserving daughters</strong>. The estimated expenditure for this noble and momentous initiative is approximately <strong>10 Million PKR</strong>. We humbly invite you to join us in making this beautiful endeavor a reality.
-          </p>
-          
-          <div style={{ 
-            background: 'rgba(255,255,255,0.1)', 
-            border: '1px solid rgba(255,255,255,0.2)',
-            backdropFilter: 'blur(10px)',
-            padding: '1rem 2.5rem', 
-            borderRadius: '2rem',
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '1rem',
-            position: 'relative',
-            zIndex: 10,
-            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
-          }}>
-            <span style={{ fontSize: '1.1rem', opacity: 0.9 }}>Contact:</span>
-            <strong style={{ fontSize: '1.2rem', color: '#F59E0B' }}>Abdul Rauf</strong>
-            <span style={{ opacity: 0.5, margin: '0 0.5rem' }}>|</span>
-            <a href="tel:+923334469035" style={{ fontSize: '1.3rem', fontWeight: '700', letterSpacing: '1px', textDecoration: 'none', color: 'white' }}>+92 333 4469035</a>
-          </div>
-        </motion.div>
+
 
         <div style={{ marginBottom: '4rem' }}>
           <h2 className="section-title" style={{ fontSize: '2rem', marginBottom: '2rem' }}>Salab Zadgan Interview</h2>

@@ -100,11 +100,12 @@ function AnnouncementPopup() {
               <div style={{
                 display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.75rem',
                 background: 'var(--primary)', color: 'white', padding: '1rem', borderRadius: '1rem',
-                marginBottom: '1.5rem', boxShadow: '0 4px 10px rgba(6, 95, 70, 0.2)'
+                marginBottom: '1.5rem', boxShadow: '0 4px 10px rgba(6, 95, 70, 0.2)',
+                direction: 'ltr' /* Force Left-to-Right for contact details */
               }}>
                 <PhoneCall size={20} />
                 <span style={{ fontSize: '1.1rem' }}>Contact <strong>Abdul Rauf</strong>:</span>
-                <a href="tel:+923334469035" style={{ fontSize: '1.2rem', fontWeight: '800', color: 'white', textDecoration: 'none' }}>
+                <a href="tel:+923334469035" style={{ fontSize: '1.2rem', fontWeight: '800', color: 'white', textDecoration: 'none' }} dir="ltr">
                   +92 333 4469035
                 </a>
               </div>
