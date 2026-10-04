@@ -44,7 +44,7 @@ function IslamicPrograms() {
             Important Announcement
           </h2>
           <p style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto 2rem', lineHeight: '1.8', opacity: 0.95, position: 'relative', zIndex: 10 }}>
-            By the grace of Almighty Allah (Insha'Allah), the <strong>Al Noor Foundation</strong> is honored to announce that in <strong>2026</strong>, we will be arranging the marriages of <strong>40 deserving daughters</strong>. The estimated expenditure for this noble and momentous initiative is approximately <strong>10 Million PKR</strong>. We humbly invite you to join us in making this beautiful endeavor a reality.
+            By the grace of Almighty Allah (Insha'Allah), the <strong>Al Noor Foundation</strong> is honored to announce that in <strong>2027</strong>, we will be arranging the marriages of <strong>40 deserving daughters</strong>. The estimated expenditure for this noble and momentous initiative is approximately <strong>10 Million PKR</strong>. We humbly invite you to join us in making this beautiful endeavor a reality.
           </p>
           
           <div style={{ 

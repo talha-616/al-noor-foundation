@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link, Outlet } from 'react-router-dom';
 import { Languages, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import AnnouncementPopup from './AnnouncementPopup';
 
 function Layout() {
   const { t, i18n } = useTranslation();
@@ -26,6 +27,7 @@ function Layout() {
 
   return (
     <>
+      <AnnouncementPopup />
       <header>
         <div className="container header-content">
           <Link to="/" className="logo">
